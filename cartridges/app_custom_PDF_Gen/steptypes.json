@@ -1,0 +1,21 @@
+{
+    "step-types": {
+        "script-module-step": [{
+                "@type-id":"custom.PDFGen",
+                "description":"Generate a PDF file",
+                "module":"app_custom_PDF_Gen/cartridge/scripts/steps/PDFGenScript.js",
+                "function":"PDFGenScript",
+                "status-codes": {
+                    "status": [{
+                            "@code":"ERROR",
+                            "description":"Used when an error occurred."
+                        },
+                        {
+                            "@code":"OK",
+                            "description":"Used when everything went well."
+                        }
+                    ]
+                }
+            }]
+        }
+    }
